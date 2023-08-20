@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0C356A;
+    position: fixed;
+    top: 0px;
+
+}
+
+.logo{
+    padding: 15px 15px ;
+    cursor: pointer;
+    transition: 0.6s ease;
+
+}
+
+.logo:hover{
+    background-color:#279EFF ;
+
+}
+
+.logo h2{
+    color: #ffffff;
+}
+#listPages ul {
+    list-style: none;
+    display: flex;   
+
+}
+#listPages ul li{
+    padding: 20px 20px ;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+#listPages ul li:hover{
+    background-color:#279EFF ;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+#Cheked{
+    background-color:#279EFF ;
+}
+
+main{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+main .profile{
+    border-radius: 500px;
+    margin-left: 20px;
+    border: 1px solid rgb(0, 228, 0);
+    width: 50px;
+    height: 50px;
+}
+main .post{
+    width: 700px;
+    height: 400px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.profileinfo{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.profileinfo h3{
+    padding: 15px 20px;
+}
+article{
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 5px 5px 10px ;
+    margin-top: 20px;
+    border-radius: 10px ;
+    }
+.react{
+    margin-top: 10px;
+}
+.react ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+
+}
+
+.react ul li{
+    text-transform: uppercase;
+    background-color: #279EFF;
+    padding: 10px 75px;
+    border-radius: 50px;
+    transition: 0.6s ease;
+
+    
+
+}
+
+.react ul li:hover{
+    background-color: #0C356A;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+a{
+    text-decoration: none;
+}
