@@ -17,6 +17,8 @@ header{
     background-color: #0C356A;
     position: fixed;
     top: 0px;
+    z-index: 1;
+
 
 }
 
